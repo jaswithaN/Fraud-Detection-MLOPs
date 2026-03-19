@@ -1,0 +1,43 @@
+# Core ML & Deep Learning
+tensorflow==2.15.0
+torch==2.2.0
+scikit-learn==1.4.0
+
+# LLMs & Re-ranking
+openai==1.12.0
+tiktoken==0.6.0
+
+# Feature Store & Streaming
+hopsworks==3.4.3
+kafka-python==2.0.2
+redis==5.0.1
+faust-streaming==0.10.14
+
+# Data & Batch Processing
+pyspark==3.5.0
+pandas==2.2.0
+numpy==1.26.3
+pyarrow==15.0.0
+delta-spark==3.0.0
+
+# MLOps
+mlflow==2.10.0
+evidently==0.4.13
+
+# Serving & Optimization
+fastapi==0.109.0
+uvicorn==0.27.0
+onnx==1.15.0
+onnxruntime-gpu==1.17.0
+kserve==0.12.0
+
+# Evaluation
+scipy==1.12.0
+
+# Infrastructure
+kubernetes==29.0.0
+docker==7.0.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
